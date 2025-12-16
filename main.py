@@ -39,4 +39,23 @@ if is_student:
 else:
      print("You are not a student.")
 
-print('hi there')
+#for loops
+#making use of range to set a specific range for the for loop
+for count in range(5, 11):
+     print(count)
+     count += 1
+
+#Makign use of step fucntion within range fucntion
+#                  start,stop,step
+for count in range(1,    10,  2):
+     print(count)
+
+#Looping through dictionaries or other list structures
+foods = ['pasta', 'pizza', 'alfredo']
+for food in foods:
+     print(food)
+
+#switch cases
+
+
+#for each loops
